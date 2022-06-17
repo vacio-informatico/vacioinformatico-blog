@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En vacio-informatico vas a poder leer gratis apuntes sobre programción.">
+    <meta name="author" content="Ciro Mirkin">
+
+    <title>vacio-informatico</title>
+    
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/normalize.css">
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <main class="main">
+        <div class="main__img">
+            <img src="./src/pictures/logo.svg" class="img" alt="vacio-informatico logo">
+        </div>
+        <div class="main__text">
+            <h1 class="main__title">vacio-informatico</h1>
+            <p class="text">Antes de que llener su vacio hay que aclarar que lo aqui publicado no son verdades absolutas o perfectas sino apuntes que pueden tener modificaciones o correcciones a lo largo del tiempo.</p>
+        </div>
+    </main>
+
+    <a href="#content" class="move"><img src="./src/pictures/arrow-down.svg"></a>
+    
+    <div class="socialMedia">
+        <ul class="socialMedia__list">
+            <li class="socialMediaList__item" title="@vacio-informatico">
+                <a href="https://github.com/vacio-informatico/" class="socialMediaList__link" target="_blank">
+                    <img src="./src/pictures/github.svg" class="socialMedia__link-img">
+                </a>
+            </li>
+            <li class="socialMediaList__item" title="@vacio_informatico">
+                <a href="https://www.instagram.com/vacio_informatico/" class="socialMediaList__link" target="_blank">
+                    <img src="./src/pictures/instagram.svg" class="socialMedia__link-img">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="content">
+        <header class="content__title">Apuntes (<span id="noteCount"></span>) :</header>
+        <a name="content"></a>
+        <ul class="list" id="note-list"> </ul>
+    </section>
+
+    <footer class="footer">
+        <header class="footer__header">vacio-informatico</header>
+        <button class="switch" id="switch">
+            <span><img src="./src/pictures/sun.svg"></span>
+            <span><img src="./src/pictures/moon.svg"></span>
+        </button>
+        <a href="https://www.buymeacoffee.com/vacioinfor" class="coffeeLink" title="Donaciones">
+            <span class="coffeeLink__text">
+                Buy me a coffee 
+                <span class="coffeeLink__underline"></span>
+            </span>
+            <img src="./src/pictures/coffee.svg" class="coffeeLink__img">
+        </a>
+    </footer>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>
