@@ -1,0 +1,42 @@
+{
+    "githubDates": {
+        "userName": "vacio-informatico",
+        "nameRepository": "vacio-informatico.md",
+        "branchName": "main"
+    },
+    "noteList": [
+        {
+            "name": "Desarrollo guiado por comportamiento (BDD)"
+        },
+        {
+            "name": "Test driven develoment (TDD)"
+        },
+        {
+            "name": "Unit testing"
+        },
+        {
+            "name": "Responsabilidad unica (SOLID-SRP)"
+        },
+        {
+            "name": "Recomendaciones GRASP"
+        },
+        {
+            "name": "Fundamentos basicos de programacion"
+        },
+        {
+            "name": "Programacion orientada a objetos (POO-OOP)"
+        },
+        {
+            "name": "sql & nosql"
+        },
+        {
+            "name": "Patrones de diseño creacionales"
+        },
+        {
+            "name": "Principios SOLID"
+        },
+        {
+            "name": "arquitectura por capas"
+        }
+    ]
+}
